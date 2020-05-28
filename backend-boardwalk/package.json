@@ -1,0 +1,41 @@
+{
+  "name": "backend-boardwalk",
+  "version": "1.0.0",
+  "description": "boardwalk's backend part",
+  "main": "server.js",
+  "engines": {
+    "node:": "10.15.3"
+  },
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "Team Boardwalk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neha039/backend-boardwalk/issues"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neha039/backend-boardwalk.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.2",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.8.6",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
