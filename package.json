@@ -30,7 +30,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "mangodb": "^1.0.0",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "mongoose": "^5.8.7",
     "morgan": "^1.9.1",
     "passport": "^0.4.1",
